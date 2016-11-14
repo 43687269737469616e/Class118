@@ -29,8 +29,8 @@ public class Cat extends Animal{
         this.lives = lives;
     }
 
-    public void kittyHeaven(boolean life){
-        if (life){
+    public void kittyHeaven(boolean dead){
+        if (dead){
             lives --;
             this.lives = lives;
         }
