@@ -11,6 +11,8 @@ public class Main {
 	    System.out.println(someAnimal);
         System.out.println(scruffy);
         System.out.println(fluffy);
+        fluffy.kittyHeaven(true);
+        System.out.println(fluffy);
         System.out.println(tweety);
 
     }

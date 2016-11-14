@@ -29,6 +29,13 @@ public class Cat extends Animal{
         this.lives = lives;
     }
 
+    public void kittyHeaven(boolean life){
+        if (life){
+            lives --;
+            this.lives = lives;
+        }
+    }
+
     @Override
     public String toString() {
         return super.toString() + " Cat{" +
